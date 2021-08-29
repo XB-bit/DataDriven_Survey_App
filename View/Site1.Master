@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="AIT_Research.View.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #footer {
+            background-color: #669999;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="mainContent">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="footer">
+
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/1200px-Online_Survey_Icon_or_logo.png" Width="300px" />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               All right reserved 
+             <br />
+            <strong>ID: </strong>7843 - Xhefri Bala - AIT
+             <br />
+            <strong>Email</strong>: 7843@ait.nsw.edu.au
+        </div>
+
+    </form>
+</body>
+</html>
